@@ -1,14 +1,15 @@
-# Blog CMS
+# Editorial CMS
 
-A content management dashboard for planning posts, tracking editorial status, SEO signals, and publishing cadence.
+Plan, draft, edit, publish, and measure content with editorial workflow and SEO signals.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ A content management dashboard for planning posts, tracking editorial status, SE
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.

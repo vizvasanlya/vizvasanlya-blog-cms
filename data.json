@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-blog-cms",
+  "title": "Editorial CMS",
+  "subtitle": "Posts, SEO, drafts, and publishing cadence",
+  "eyebrow": "Content MVP",
+  "initial": "CM",
+  "accent": "#4f46e5",
+  "description": "Plan, draft, edit, publish, and measure content with editorial workflow and SEO signals.",
+  "metrics": [
+    {
+      "label": "Total posts",
+      "delta": "Content",
+      "type": "count"
+    },
+    {
+      "label": "Active drafts",
+      "delta": "Pipeline",
+      "type": "count"
+    },
+    {
+      "label": "Published rate",
+      "delta": "Cadence",
+      "type": "percent"
+    },
+    {
+      "label": "Critical posts",
+      "delta": "SEO",
+      "type": "count"
+    },
+    {
+      "label": "Content value",
+      "delta": "Traffic",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Editing",
+    "Scheduled",
+    "Draft",
+    "Published",
+    "Review"
+  ],
+  "resources": [
+    {
+      "title": "API design patterns guide",
+      "owner": "Engineering",
+      "status": "Editing",
+      "priority": "High",
+      "dueDate": "2026-06-18",
+      "value": 6200,
+      "detail": "Long-form guide with examples and diagrams.",
+      "notes": "Add code samples and internal links."
+    },
+    {
+      "title": "Remote team rituals post",
+      "owner": "People",
+      "status": "Scheduled",
+      "priority": "Medium",
+      "dueDate": "2026-06-18",
+      "value": 3400,
+      "detail": "Publish date set for next Tuesday.",
+      "notes": "Add manager checklist."
+    },
+    {
+      "title": "Launch retrospective",
+      "owner": "Product",
+      "status": "Draft",
+      "priority": "High",
+      "dueDate": "2026-06-24",
+      "value": 5100,
+      "detail": "Interviews collected and outline approved.",
+      "notes": "Include metrics and lessons learned."
+    },
+    {
+      "title": "Security checklist resource",
+      "owner": "Security",
+      "status": "Published",
+      "priority": "Critical",
+      "dueDate": "2026-06-12",
+      "value": 9200,
+      "detail": "Security checklist added to resource hub.",
+      "notes": "Monitor downloads and backlinks."
+    },
+    {
+      "title": "Customer story draft",
+      "owner": "Marketing",
+      "status": "Review",
+      "priority": "Medium",
+      "dueDate": "2026-06-21",
+      "value": 4800,
+      "detail": "Case study draft waiting for customer approval.",
+      "notes": "Request quote and logo permission."
+    },
+    {
+      "title": "Newsletter template",
+      "owner": "Growth",
+      "status": "Draft",
+      "priority": "Low",
+      "dueDate": "2026-06-27",
+      "value": 1900,
+      "detail": "Reusable template for weekly content digest.",
+      "notes": "Add UTM tracking."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Scheduled remote rituals post.",
+      "at": "2026-06-10T10:10:00Z"
+    },
+    {
+      "text": "Published security checklist.",
+      "at": "2026-06-05T15:00:00Z"
+    }
+  ]
+}
