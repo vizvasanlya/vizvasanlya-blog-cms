@@ -1,0 +1,10 @@
+{
+  "name": "vizvasanlya-blog-cms",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 5173"
+  },
+  "keywords": ["blog-cms", "dashboard", "starter"],
+  "license": "MIT"
+}
